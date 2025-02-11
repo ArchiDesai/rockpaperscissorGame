@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+body{
+    background-color: rgb(209, 188, 228)
+}
+
+h1{
+    color: darkblue;
+    font-size: 3rem;
+    text-shadow: 6px 6px 5px rgb(218, 122, 154);
+    margin-top: 2rem;
+    font-family: "Josefin Sans", seri;
+}
+
+.container{
+    /* border: 5px solid red; */
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.choice{
+    /* border: 5px solid green; */
+    width: 9rem;
+    height: 9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10rem;
+}
+
+.choice:hover{
+    cursor: pointer;
+    background-color: darkblue;
+}
+
+img{
+    width: 8rem;
+    height: 8rem;
+    border-radius: 10rem;
+    object-fit: cover;
+}
+
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    font-size: 2rem;
+    gap: 4rem;
+    font-weight: bold;
+    font-family: "Josefin Sans", seri;;
+}
+
+#user-score,#comp-score{
+    font-size: 4rem;
+}
+
+.msg-box{
+    margin-top: 5rem;
+}
+
+#msg{
+    background-color: rgb(1, 1, 80);
+    color: rgb(227, 187, 235);
+    font-size: 2rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+    font-family: "Josefin Sans", seri;
+}
+
+.btn{
+    margin-top: 2.5rem;
+    padding: 0.5rem;
+    background-color: rgb(1, 31, 1);
+    color: lightgreen;
+    font-size: 1.2rem;
+    border-radius: 1rem;
+    font-family: "Josefin Sans", seri;
+}
+
+.btn:hover{
+    background-color: rgb(18, 1, 71);
+    color: white;
+    cursor: pointer;
+}
